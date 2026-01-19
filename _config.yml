@@ -1,3 +1,3 @@
-theme: jekyll-theme-prime # 아무거나 지정 (커스텀 레이아웃이 덮어씀)
+theme: minima
 title: My LinkedIn Profile
 description: Portfolio

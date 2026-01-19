@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Surgical Architect
-name: "@biassurgeon"
+handle: "@biassurgeon"
 headline: "#SurgicalEngineering #LogicFirstFinOps #HighDensityComputing"
 location: "대한민국 서울시"
 profile_image: "images/profile.jpg" # 프로필 이미지 URL

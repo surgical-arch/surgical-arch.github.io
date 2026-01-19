@@ -4,8 +4,8 @@ title: Surgical Architect
 name: "Surgical (surgical.arch) Architect"
 headline: "#SurgicalEngineering #LogicFirstFinOps #HighDensityComputing"
 location: "대한민국 서울 서울 · 연락처"
-profile_image: "https://github.com/github.png" # 프로필 이미지 URL
-banner_image: "https://via.placeholder.com/800x200/4a76a8/ffffff?text=Banner" # 배경 이미지 URL
+profile_image: "images/profile.jpg" # 프로필 이미지 URL
+banner_image: "images/top_banner.jpg" # 배경 이미지 URL
 ---
 ## 소개
 ▷ Removing 'Fear Tax' from Cloud Bills | Logic-First FinOps | 200B Rows in 2GB Container  

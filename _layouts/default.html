@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        :root {
+            --bg-color: #f3f2ef;
+            --card-bg: #ffffff;
+            --text-primary: #191919;
+            --text-secondary: #666666;
+            --link-color: #0a66c2;
+            --border-radius: 8px;
+            --spacing: 24px;
+        }
+        body {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 780px; /* 링크드인 본문 너비와 유사 */
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.05);
+            overflow: hidden;
+            position: relative;
+        }
+        /* Profile Section */
+        .banner {
+            height: 200px;
+            background-color: #a0b4b7;
+            background-image: url('{{ page.banner_image }}');
+            background-size: cover;
+            background-position: center;
+        }
+        .profile-info {
+            padding: 0 24px 24px;
+            margin-top: -50px; /* Avatar overlap */
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            background-image: url('{{ page.profile_image }}');
+            background-size: cover;
+            background-position: center;
+            background-color: #fff;
+        }
+        .name-section {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        h1 { font-size: 24px; margin: 0; font-weight: 600; }
+        .headline { font-size: 16px; margin: 5px 0; color: var(--text-primary); }
+        .location { font-size: 14px; color: var(--text-secondary); margin-top: 5px; }
+        .buttons { margin-top: 15px; display: flex; gap: 8px; }
+        .btn {
+            border-radius: 1.2rem;
+            padding: 6px 16px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-primary { background-color: var(--link-color); color: white; border: none; }
+        .btn-outline { background-color: white; color: var(--link-color); border: 1px solid var(--link-color); }
+        .btn-gray { background-color: white; color: var(--text-secondary); border: 1px solid var(--text-secondary); }
+        /* Content Section (Markdown Body) */
+        .content-body { padding: 24px; }
+        .content-body h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+            border-bottom: none;
+        }
+        .content-body p { line-height: 1.5; color: var(--text-primary); font-size: 14px; }
+        .content-body a { color: var(--link-color); text-decoration: none; font-weight: 600; }
+        .content-body a:hover { text-decoration: underline; }
+        .content-body ul { padding-left: 20px; color: var(--text-primary); font-size: 14px; }
+        .content-body li { margin-bottom: 5px; }
+        
+        /* Edit Icon Simulation */
+        .edit-icon { float: right; color: var(--text-secondary); cursor: pointer; font-size: 1.2rem;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 1. Profile Card -->
+        <div class="card">
+            <div class="banner"></div>
+            <div class="profile-info">
+                <div class="avatar"></div>
+                <div class="name-section">
+                    <div>
+                        <h1>{{ page.name }}</h1>
+                        <div class="headline">{{ page.headline }}</div>
+                        <div class="location">{{ page.location }}</div>
+                    </div>
+                    <div class="edit-icon">✎</div>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="btn btn-primary">관심분야</a>
+                    <a href="#" class="btn btn-outline">프로필 항목 등록</a>
+                    <a href="#" class="btn btn-gray">리소스</a>
+                </div>
+            </div>
+        </div>
+        <!-- 2. Content Card (Parsed Markdown) -->
+        <div class="card">
+            <div class="content-body">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

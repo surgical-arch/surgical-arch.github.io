@@ -8,6 +8,11 @@ profile_image: "images/profile.jpg" # 프로필 이미지 URL
 banner_image: "images/top_banner.jpg" # 배경 이미지 URL
 ---
 
+<img src="images/youtube_logo.png" height="80px" title="@biassurgeon"/>
+<img src="images/instagram_logo.png" height="80px" title="@biassurgeon"/>
+<img src="images/prism_logo.png" height="80px" title="@biassurgeon"/>
+
+
 ## 소개
 ▷ Removing 'Fear Tax' from Cloud Bills | Logic-First FinOps | 200B Rows in 2GB Container  
 ▷ 기술 부채를 순수익으로 바꾸는 데이터 및 클라우드 외과의사  

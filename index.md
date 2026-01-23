@@ -33,6 +33,23 @@ banner_image: "images/top_banner.jpg" # 배경 이미지 URL
 - PRISM은 진실을 판결하는 판사의 역할은 아닙니다. LLM 확률적 해석 결과이며, 사실 확인과 분석 결과에 대한 판단은 **사용자 스스로의 생각하여 사고**하시기 바랍니다. (이것이 PRISM의 목표입니다)
 - PRISM은 분석 수행시 LLM API Key는 사용자의 API Key 사용하며, 해당 정보는 사용자의 로컬 컴퓨터에 암호화 하여 저장됩니다.
 
+### 의무고지 사항 (크롬 스토어에 기고지된 사항이며, 참고를 위해 재고지 합니다)
+
+#### ⚠️ 중요 안내
+
+- PRISM 분석 결과는 LLM 확률적 해석 결과입니다.
+- 법적·의료적·재무적 결정의 근거로 사용할 수 없습니다
+- 분석 결과의 정확성을 보장하지 않습니다
+- 사용으로 인한 손해에 대해 개발자는 책임지지 않습니다
+- 최종 판단은 사용자의 책임입니다.
+
+#### 🔒 개인정보 보호
+
+- PRISM은 사용자 데이터를 수집·저장하지 않습니다
+- 분석 내역은 추적하지 않습니다
+- API Key는 사용자 기기에만 저장됩니다
+- 분석 결과는 외부로 전송되지 않습니다
+
 ### PRISM 분석 내용
 
 - 채널 분석 : 채널 성향, 이슈 등을 분석합니다. 
@@ -46,4 +63,5 @@ banner_image: "images/top_banner.jpg" # 배경 이미지 URL
 <img src="images/chrome_store_screenshot2.png" width="100%" border="10" style="border-color:#6600CC"/>
 
 <img src="images/chrome_store_screenshot3.png" width="100%" border="10" style="border-color:#6600CC"/>
+
 

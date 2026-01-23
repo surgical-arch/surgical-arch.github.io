@@ -1,6 +1,6 @@
 # Privacy Policy for PRISM
 
-Effective Date: 2026. 01. 23
+* Effective Date: 2026. 01. 23
 
 1. Information Collection PRISM does not collect, track, or transmit any personally identifiable information (PII) or sensitive user data to external servers. We do not require account creation or login to use the extension.
 
@@ -8,7 +8,7 @@ Effective Date: 2026. 01. 23
 
 - All data processed by PRISM occurs exclusively on the user's local device. The extension analyzes text, URLs to provide contextual evaluation and summary of media content within the browser. This processing is transient and is used only to perform the extension's core functionality.
 
-4. Data Storage
+3. Data Storage
    
 - PRISM does not store your data on our servers. Any settings or preferences you save are stored locally on your device using Chrome's local storage API. These settings are deleted if you uninstall the extension.
 
@@ -16,7 +16,7 @@ Effective Date: 2026. 01. 23
    
 - We do not sell, trade, or share any user data with third parties. Since we do not collect any data, there is no information to disclose to law enforcement, advertisers, or other third-party entities.
 
-6. Permissions Disclosure PRISM requests only the minimum permissions necessary to function:
+5. Permissions Disclosure PRISM requests only the minimum permissions necessary to function:
 
 - storage: To save your personal settings locally.
 

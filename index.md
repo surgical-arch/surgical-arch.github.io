@@ -29,9 +29,9 @@ banner_image: "images/top_banner.jpg" # 배경 이미지 URL
 - 팩트 체크 : 영상 내용의 사실 여부를 확인 및 의도를 분석하여 위험을 탐지합니다.
 - 터널 탈출 : 영상 내용의 심리적 공략 기법을 분석하여 위험을 탐지합니다.
 
-<img src="images/chrome_store_screenshot1.png" width="100%" border="10" border-coloe="#6600CC"/>
+<img src="images/chrome_store_screenshot1.png" width="100%" border="10" border-color="#6600CC"/>
 
-<img src="images/chrome_store_screenshot2.png" width="100%" border="10" border-coloe="#6600CC"/>
+<img src="images/chrome_store_screenshot2.png" width="100%" border="10" border-color="#6600CC"/>
 
-<img src="images/chrome_store_screenshot3.png" width="100%" border="10" border-coloe="#6600CC"/>
+<img src="images/chrome_store_screenshot3.png" width="100%" border="10" border-color="#6600CC"/>
 
